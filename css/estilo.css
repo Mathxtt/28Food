@@ -1,6 +1,6 @@
 /* O CORPO COMPLETO DA PÁGINA*/
 body{
-    background-color: #FFF0F5;
+    background-color: #F8F8FF;
     margin: 0;
     padding: 0;
 }
@@ -35,7 +35,7 @@ body{
 }
 
 .menu a:hover{
-    background-color: #F5DEB3;
+    background-color: #F8F8FF;
     color: #1E90FF;
 }
 
@@ -66,13 +66,13 @@ body{
     width: 700px;
     height: 20px;
     border-radius: 20px;
-    border: solid whitesmoke 3px;
-    background-color: #949c9e;
-    color: whitesmoke
+    border: solid #1E90FF 3px;
+    background-color: #F8F8FF;
+    color: rgb(0, 0, 0)
 }
 
 .pesquisa ::placeholder{
-    color: whitesmoke;
+    color: #000000;
 }
 
 .pesquisa input[type=submit]{
@@ -93,6 +93,77 @@ body{
 
 .pesquisa input[type=submit]:hover{
     opacity: 0.7;
+}
+
+/*  TEXTO H1 */
+
+.a99{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    color: #1E90FF;    
+}
+
+/* TRATAMENTO DO SLIDESHOW */
+
+.myslides{display: none;} 
+
+.slideshow-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    max-width: auto;
+}
+
+.numbertext{
+    color: #1E90FF;
+    font-size: 18px;
+    padding: 10px 10px;
+    position: absolute;
+    top: 0;
+}
+
+.text{
+    color: #ffffff;
+    font-size: 22px;
+    padding: 10px 10px;
+    position: absolute;
+    bottom: 8px;
+    width: 100px;
+    text-align: center;
+}
+
+.dot{
+    height: 20px;
+    width: 20px;
+    background-color: #1E90FF;
+    border-radius: 50%;
+    display: inline-block;
+    transition: backgraund-color 0.6s ease;
+}
+
+.active{
+    background-color: #1E90FF;
+}
+
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+/* RECEITAS BOX */
+
+.container-receitas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@keyframes fade{
+    from{opacity: 0.4}
+    to {opacity: 1;}
 }
 
 
