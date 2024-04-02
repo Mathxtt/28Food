@@ -1,6 +1,7 @@
 /* O CORPO COMPLETO DA PÁGINA*/
 body {
-    background-color: #F8F8FF;
+    background-color: #dfcfcf;
+    /* background-image: url("../img/MicrosoftTeams-image.png"); */
     margin: 0;
     padding: 0;
 }
@@ -37,7 +38,7 @@ body {
 }
 
 .menu a:hover {
-    background-color: #F8F8FF;
+    background-color: #dfcfcf;
     color: #1E90FF;
 }
 
@@ -70,7 +71,7 @@ body {
     height: 20px;
     border-radius: 20px;
     border: solid #1E90FF 3px;
-    background-color: #F8F8FF;
+    background-color: #ffffff;
     color: rgb(0, 0, 0)
 }
 
@@ -135,7 +136,7 @@ h1 {
 }
 
 .text {
-    color: #ffffff;
+    color: #1E90FF;
     font-size: 22px;
     padding: 10px 10px;
     position: absolute;
@@ -164,7 +165,7 @@ h1 {
 
 .texto-receitas {
     font-family: Curely;
-    font-size: 25px;
+    font-size: 30px;
     color: #1E90FF;
     text-align: center;
 }
@@ -176,7 +177,7 @@ h1 {
     justify-content: space-around;
     font-size: 30px;
     color: #1E90FF;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     text-align: center;
     font-style: italic;
     margin-bottom: 80px;
