@@ -1,16 +1,59 @@
 .preparo {
-    background-color: #ffffff;
-    border-radius: 15px;
+    background-color: whitesmoke;
+    color: #09498a;
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom: 2px rgb(0, 0, 0) solid;
     font-size: 22px;
-    color: #1E90FF;
+    margin-bottom: 20px;
+
+}
+
+.receita {
+    background-color: whitesmoke;
+    color: #09498a;
+    font-style: italic;
+    padding: 30px;
 }
 
 .preparo:hover {
     opacity: 0.7;
 }
 
-#checkbox::after {
-    background-color: #1E90FF;
-    width: 30px;
-    height: 30px;
+.preparo img {
+    padding: 5px 5px 0px 5px;
+}
+
+h3,
+h4 {
+    color: #09498a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+text {
+    color: #09498a;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    accent-color: #09498a;
+}
+
+.imagem_receitaS {
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    border: solid 2px black;
+    border-radius: 20px;
+    width: 600px;
+    height: 600px;
+    padding: 20px;
+}
+
+.imagem_receitaS img {
+    border-radius: 20px;
 }
