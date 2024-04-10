@@ -191,9 +191,42 @@ h1 {
 .rodape {
     height: 300px;
     width: auto;
-    background-color: #1E90FF;
+    background-color: #1f8fff;
+    color: whitesmoke;
 }
 
+.rodape{
+    height: 300px;
+    width: auto;
+    background-color: #1f8fff;
+}
+ 
+.rodape text{
+    margin-top: 250px;
+}
+ 
+.rodape-container{
+    display: flex;
+    align-items: center;
+    float: left;
+    font-size: medium;
+    margin-left: 8%;
+}
+ 
+.rodape a{
+    align-items: center;
+    font-size: 22px;
+}
+ 
+.map h1, p, a{
+    color: whitesmoke;
+    display: flex;
+    align-content: center;
+}
+ 
+.map a:visited{
+    color: whitesmoke;
+}
 
 
 @keyframes fade {

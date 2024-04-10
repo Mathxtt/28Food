@@ -47,8 +47,8 @@ input[type="checkbox"] {
     float: right;
     display: flex;
     justify-content: space-between;
-    border: solid 2px black;
-    border-radius: 20px;
+    
+    
     width: 600px;
     height: 600px;
     padding: 20px;
